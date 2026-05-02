@@ -1,0 +1,25 @@
+[2026-05-02T18:16:11.013+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-02T18:16:11.020+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_etl_pratica.transformar_dados manual__2026-05-02T18:16:04.579944+00:00 [queued]>
+[2026-05-02T18:16:11.024+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_etl_pratica.transformar_dados manual__2026-05-02T18:16:04.579944+00:00 [queued]>
+[2026-05-02T18:16:11.025+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2026-05-02T18:16:11.036+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transformar_dados> on 2026-05-02 18:16:04.579944+00:00
+[2026-05-02T18:16:11.041+0000] {standard_task_runner.py:72} INFO - Started process 97318 to run task
+[2026-05-02T18:16:11.044+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_etl_pratica', 'transformar_dados', 'manual__2026-05-02T18:16:04.579944+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_etl_pratica.py', '--cfg-path', '/tmp/tmpj9wcrmz3']
+[2026-05-02T18:16:11.044+0000] {standard_task_runner.py:105} INFO - Job 81: Subtask transformar_dados
+[2026-05-02T18:16:11.081+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_etl_pratica.transformar_dados manual__2026-05-02T18:16:04.579944+00:00 [running]> on host codespaces-a467f8
+[2026-05-02T18:16:11.125+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='CrisStudy' AIRFLOW_CTX_DAG_ID='pipeline_etl_pratica' AIRFLOW_CTX_TASK_ID='transformar_dados' AIRFLOW_CTX_EXECUTION_DATE='2026-05-02T18:16:04.579944+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-02T18:16:04.579944+00:00'
+[2026-05-02T18:16:11.126+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-02T18:16:11.126+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-02T18:16:11.126+0000] {logging_mixin.py:190} INFO - Current task name:transformar_dados state:running start_date:2026-05-02 18:16:11.020815+00:00
+[2026-05-02T18:16:11.126+0000] {logging_mixin.py:190} INFO - Dag name:pipeline_etl_pratica and current dag run status:running
+[2026-05-02T18:16:11.126+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-02T18:16:11.134+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-02T18:16:11.138+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-02T18:16:11.138+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=pipeline_etl_pratica, task_id=transformar_dados, run_id=manual__2026-05-02T18:16:04.579944+00:00, execution_date=20260502T181604, start_date=20260502T181611, end_date=20260502T181611
+[2026-05-02T18:16:11.147+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-02T18:16:11.147+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-02T18:16:11.147+0000] {logging_mixin.py:190} INFO - Dag name:pipeline_etl_pratica queued_at:2026-05-02 18:16:04.586722+00:00
+[2026-05-02T18:16:11.148+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-a467f8 operator:PythonOperator
+[2026-05-02T18:16:11.179+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-02T18:16:11.195+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-02T18:16:11.199+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,25 @@
+[2026-05-02T18:33:39.713+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-02T18:33:39.721+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_etl_pratica.limpeza_arquivos manual__2026-05-02T18:28:11.256787+00:00 [queued]>
+[2026-05-02T18:33:39.725+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_etl_pratica.limpeza_arquivos manual__2026-05-02T18:28:11.256787+00:00 [queued]>
+[2026-05-02T18:33:39.725+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2026-05-02T18:33:39.738+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): limpeza_arquivos> on 2026-05-02 18:28:11.256787+00:00
+[2026-05-02T18:33:39.743+0000] {standard_task_runner.py:72} INFO - Started process 109515 to run task
+[2026-05-02T18:33:39.746+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_etl_pratica', 'limpeza_arquivos', 'manual__2026-05-02T18:28:11.256787+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_etl_pratica.py', '--cfg-path', '/tmp/tmpo2holp5c']
+[2026-05-02T18:33:39.747+0000] {standard_task_runner.py:105} INFO - Job 95: Subtask limpeza_arquivos
+[2026-05-02T18:33:39.786+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_etl_pratica.limpeza_arquivos manual__2026-05-02T18:28:11.256787+00:00 [running]> on host codespaces-a467f8
+[2026-05-02T18:33:39.829+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='CrisStudy' AIRFLOW_CTX_DAG_ID='pipeline_etl_pratica' AIRFLOW_CTX_TASK_ID='limpeza_arquivos' AIRFLOW_CTX_EXECUTION_DATE='2026-05-02T18:28:11.256787+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-02T18:28:11.256787+00:00'
+[2026-05-02T18:33:39.830+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-02T18:33:39.830+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-02T18:33:39.830+0000] {logging_mixin.py:190} INFO - Current task name:limpeza_arquivos state:running start_date:2026-05-02 18:33:39.721344+00:00
+[2026-05-02T18:33:39.830+0000] {logging_mixin.py:190} INFO - Dag name:pipeline_etl_pratica and current dag run status:running
+[2026-05-02T18:33:39.831+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-02T18:33:39.831+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-02T18:33:39.834+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-02T18:33:39.834+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=pipeline_etl_pratica, task_id=limpeza_arquivos, run_id=manual__2026-05-02T18:28:11.256787+00:00, execution_date=20260502T182811, start_date=20260502T183339, end_date=20260502T183339
+[2026-05-02T18:33:39.842+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-02T18:33:39.842+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-02T18:33:39.843+0000] {logging_mixin.py:190} INFO - Dag name:pipeline_etl_pratica queued_at:2026-05-02 18:28:11.267161+00:00
+[2026-05-02T18:33:39.843+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-a467f8 operator:PythonOperator
+[2026-05-02T18:33:39.881+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-02T18:33:39.890+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-02T18:33:39.891+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,126 @@
+[2026-05-02T17:50:09.835+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-02T17:50:09.845+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_etl_pratica.carregar_banco manual__2026-05-02T17:49:59.023792+00:00 [queued]>
+[2026-05-02T17:50:09.851+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_etl_pratica.carregar_banco manual__2026-05-02T17:49:59.023792+00:00 [queued]>
+[2026-05-02T17:50:09.851+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2026-05-02T17:50:09.866+0000] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): carregar_banco> on 2026-05-02 17:49:59.023792+00:00
+[2026-05-02T17:50:09.870+0000] {standard_task_runner.py:72} INFO - Started process 76392 to run task
+[2026-05-02T17:50:09.873+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_etl_pratica', 'carregar_banco', 'manual__2026-05-02T17:49:59.023792+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_etl_pratica.py', '--cfg-path', '/tmp/tmpxgbdpsr1']
+[2026-05-02T17:50:09.873+0000] {standard_task_runner.py:105} INFO - Job 45: Subtask carregar_banco
+[2026-05-02T17:50:09.902+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_etl_pratica.carregar_banco manual__2026-05-02T17:49:59.023792+00:00 [running]> on host codespaces-a467f8
+[2026-05-02T17:50:09.947+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='CrisStudy' AIRFLOW_CTX_DAG_ID='pipeline_etl_pratica' AIRFLOW_CTX_TASK_ID='carregar_banco' AIRFLOW_CTX_EXECUTION_DATE='2026-05-02T17:49:59.023792+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-02T17:49:59.023792+00:00'
+[2026-05-02T17:50:09.948+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-02T17:50:09.948+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-02T17:50:09.949+0000] {logging_mixin.py:190} INFO - Current task name:carregar_banco state:running start_date:2026-05-02 17:50:09.845812+00:00
+[2026-05-02T17:50:09.949+0000] {logging_mixin.py:190} INFO - Dag name:pipeline_etl_pratica and current dag run status:running
+[2026-05-02T17:50:09.949+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-02T17:50:09.949+0000] {sql.py:266} INFO - Executing: -- Criar a tabela caso ela não exista
+CREATE TABLE IF NOT EXISTS vendas_consolidadas (
+    id INTEGER PRIMARY KEY,
+    valor REAL,
+    nome TEXT
+);
+
+-- Inserir dados de exemplo (ou os dados que seu ETL gerou)
+INSERT INTO vendas_consolidadas (id, valor, nome)
+VALUES (1, 100.0, 'Cris'), (2, 200.0, 'Saraiva');
+[2026-05-02T17:50:09.954+0000] {base.py:84} INFO - Retrieving connection 'db_local'
+[2026-05-02T17:50:09.957+0000] {base.py:84} INFO - Retrieving connection 'db_local'
+[2026-05-02T17:50:09.958+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 272, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 452, in run
+    with self._create_autocommit_connection(autocommit) as conn:
+  File "/usr/local/python/3.12.1/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 574, in _create_autocommit_connection
+    with closing(self.get_conn()) as conn:
+                 ^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/sqlite/hooks/sqlite.py", line 44, in get_conn
+    conn = sqlite3.connect(sqlite_uri, uri=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+[2026-05-02T17:50:09.965+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2026-05-02T17:50:09.965+0000] {logging_mixin.py:190} INFO - Task start:2026-05-02 17:50:09.845812+00:00 end:2026-05-02 17:50:09.965401+00:00 duration:0.119589
+[2026-05-02T17:50:09.966+0000] {logging_mixin.py:190} INFO - Task:<Task(SQLExecuteQueryOperator): carregar_banco> dag:<DAG: pipeline_etl_pratica> dagrun:<DagRun pipeline_etl_pratica @ 2026-05-02 17:49:59.023792+00:00: manual__2026-05-02T17:49:59.023792+00:00, state:running, queued_at: 2026-05-02 17:49:59.032270+00:00. externally triggered: True>
+[2026-05-02T17:50:09.966+0000] {logging_mixin.py:190} INFO - Failure caused by unable to open database file
+[2026-05-02T17:50:09.966+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=pipeline_etl_pratica, task_id=carregar_banco, run_id=manual__2026-05-02T17:49:59.023792+00:00, execution_date=20260502T174959, start_date=20260502T175009, end_date=20260502T175009
+[2026-05-02T17:50:09.979+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-02T17:50:09.979+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 45 for task carregar_banco (unable to open database file; 76392)
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 272, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 452, in run
+    with self._create_autocommit_connection(autocommit) as conn:
+  File "/usr/local/python/3.12.1/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 574, in _create_autocommit_connection
+    with closing(self.get_conn()) as conn:
+                 ^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/providers/sqlite/hooks/sqlite.py", line 44, in get_conn
+    conn = sqlite3.connect(sqlite_uri, uri=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+[2026-05-02T17:50:10.005+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-05-02T17:50:10.018+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-02T17:50:10.019+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

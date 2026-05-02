@@ -1,0 +1,120 @@
+[2026-05-02T16:34:38.621+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-02T16:34:38.628+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_etl_pratica.carregar_banco manual__2026-05-02T16:34:29.003031+00:00 [queued]>
+[2026-05-02T16:34:38.633+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_etl_pratica.carregar_banco manual__2026-05-02T16:34:29.003031+00:00 [queued]>
+[2026-05-02T16:34:38.633+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2026-05-02T16:34:38.645+0000] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): carregar_banco> on 2026-05-02 16:34:29.003031+00:00
+[2026-05-02T16:34:38.649+0000] {standard_task_runner.py:72} INFO - Started process 22220 to run task
+[2026-05-02T16:34:38.652+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_etl_pratica', 'carregar_banco', 'manual__2026-05-02T16:34:29.003031+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_etl_pratica.py', '--cfg-path', '/tmp/tmpjfdwz7v4']
+[2026-05-02T16:34:38.652+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask carregar_banco
+[2026-05-02T16:34:38.682+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_etl_pratica.carregar_banco manual__2026-05-02T16:34:29.003031+00:00 [running]> on host codespaces-a467f8
+[2026-05-02T16:34:38.710+0000] {abstractoperator.py:778} ERROR - Exception rendering Jinja template for task 'carregar_banco', field 'sql'. Template: 'sql/insert_data.sql'
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/abstractoperator.py", line 770, in _do_render_template_fields
+    rendered_content = self.render_template(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/template/templater.py", line 168, in render_template
+    template = jinja_env.get_template(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/insert_data.sql
+[2026-05-02T16:34:38.711+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3114, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context, jinja_env=jinja_env)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3533, in render_templates
+    original_task.render_template_fields(context, jinja_env)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1419, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/abstractoperator.py", line 770, in _do_render_template_fields
+    rendered_content = self.render_template(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/template/templater.py", line 168, in render_template
+    template = jinja_env.get_template(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/insert_data.sql
+[2026-05-02T16:34:38.718+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2026-05-02T16:34:38.718+0000] {logging_mixin.py:190} INFO - Task start:2026-05-02 16:34:38.629152+00:00 end:2026-05-02 16:34:38.717921+00:00 duration:0.088769
+[2026-05-02T16:34:38.718+0000] {logging_mixin.py:190} INFO - Task:<Task(SQLExecuteQueryOperator): carregar_banco> dag:<DAG: pipeline_etl_pratica> dagrun:<DagRun pipeline_etl_pratica @ 2026-05-02 16:34:29.003031+00:00: manual__2026-05-02T16:34:29.003031+00:00, state:running, queued_at: 2026-05-02 16:34:29.015750+00:00. externally triggered: True>
+[2026-05-02T16:34:38.719+0000] {logging_mixin.py:190} INFO - Failure caused by sql/insert_data.sql
+[2026-05-02T16:34:38.719+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=pipeline_etl_pratica, task_id=carregar_banco, run_id=manual__2026-05-02T16:34:29.003031+00:00, execution_date=20260502T163429, start_date=20260502T163438, end_date=20260502T163438
+[2026-05-02T16:34:38.731+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-02T16:34:38.732+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 10 for task carregar_banco (sql/insert_data.sql; 22220)
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3114, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context, jinja_env=jinja_env)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3533, in render_templates
+    original_task.render_template_fields(context, jinja_env)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1419, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/abstractoperator.py", line 770, in _do_render_template_fields
+    rendered_content = self.render_template(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/template/templater.py", line 168, in render_template
+    template = jinja_env.get_template(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/insert_data.sql
+[2026-05-02T16:34:38.744+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-05-02T16:34:38.757+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-02T16:34:38.758+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

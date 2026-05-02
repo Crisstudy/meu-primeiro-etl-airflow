@@ -1,0 +1,26 @@
+[2026-05-02T17:45:22.756+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-02T17:45:22.809+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_etl_pratica.extrair_s3 manual__2026-05-02T17:45:19.300921+00:00 [queued]>
+[2026-05-02T17:45:22.820+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_etl_pratica.extrair_s3 manual__2026-05-02T17:45:19.300921+00:00 [queued]>
+[2026-05-02T17:45:22.820+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2026-05-02T17:45:22.881+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extrair_s3> on 2026-05-02 17:45:19.300921+00:00
+[2026-05-02T17:45:22.905+0000] {standard_task_runner.py:72} INFO - Started process 72802 to run task
+[2026-05-02T17:45:22.920+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_etl_pratica', 'extrair_s3', 'manual__2026-05-02T17:45:19.300921+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_etl_pratica.py', '--cfg-path', '/tmp/tmpnb0st24d']
+[2026-05-02T17:45:22.921+0000] {standard_task_runner.py:105} INFO - Job 39: Subtask extrair_s3
+[2026-05-02T17:45:22.984+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_etl_pratica.extrair_s3 manual__2026-05-02T17:45:19.300921+00:00 [running]> on host codespaces-a467f8
+[2026-05-02T17:45:23.109+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='CrisStudy' AIRFLOW_CTX_DAG_ID='pipeline_etl_pratica' AIRFLOW_CTX_TASK_ID='extrair_s3' AIRFLOW_CTX_EXECUTION_DATE='2026-05-02T17:45:19.300921+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-02T17:45:19.300921+00:00'
+[2026-05-02T17:45:23.120+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-02T17:45:23.121+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-02T17:45:23.121+0000] {logging_mixin.py:190} INFO - Current task name:extrair_s3 state:running start_date:2026-05-02 17:45:22.810288+00:00
+[2026-05-02T17:45:23.122+0000] {logging_mixin.py:190} INFO - Dag name:pipeline_etl_pratica and current dag run status:running
+[2026-05-02T17:45:23.122+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-02T17:45:23.122+0000] {logging_mixin.py:190} INFO - Extraindo do S3...
+[2026-05-02T17:45:23.123+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-02T17:45:23.128+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-02T17:45:23.128+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=pipeline_etl_pratica, task_id=extrair_s3, run_id=manual__2026-05-02T17:45:19.300921+00:00, execution_date=20260502T174519, start_date=20260502T174522, end_date=20260502T174523
+[2026-05-02T17:45:23.137+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-02T17:45:23.138+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-02T17:45:23.138+0000] {logging_mixin.py:190} INFO - Dag name:pipeline_etl_pratica queued_at:2026-05-02 17:45:19.307713+00:00
+[2026-05-02T17:45:23.138+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-a467f8 operator:PythonOperator
+[2026-05-02T17:45:23.178+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-02T17:45:23.195+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-02T17:45:23.199+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
