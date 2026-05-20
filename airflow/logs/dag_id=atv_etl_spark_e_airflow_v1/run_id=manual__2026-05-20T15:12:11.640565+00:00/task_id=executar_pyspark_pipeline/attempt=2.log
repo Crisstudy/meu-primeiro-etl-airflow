@@ -1,0 +1,114 @@
+[2026-05-20T15:13:19.716+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-20T15:13:19.725+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atv_etl_spark_e_airflow_v1.executar_pyspark_pipeline manual__2026-05-20T15:12:11.640565+00:00 [queued]>
+[2026-05-20T15:13:19.730+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atv_etl_spark_e_airflow_v1.executar_pyspark_pipeline manual__2026-05-20T15:12:11.640565+00:00 [queued]>
+[2026-05-20T15:13:19.731+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2026-05-20T15:13:19.751+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): executar_pyspark_pipeline> on 2026-05-20 15:12:11.640565+00:00
+[2026-05-20T15:13:19.755+0000] {standard_task_runner.py:72} INFO - Started process 64638 to run task
+[2026-05-20T15:13:19.758+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'atv_etl_spark_e_airflow_v1', 'executar_pyspark_pipeline', 'manual__2026-05-20T15:12:11.640565+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_spark_vendas.py', '--cfg-path', '/tmp/tmprm0a4ui3']
+[2026-05-20T15:13:19.759+0000] {standard_task_runner.py:105} INFO - Job 7: Subtask executar_pyspark_pipeline
+[2026-05-20T15:13:19.794+0000] {task_command.py:467} INFO - Running <TaskInstance: atv_etl_spark_e_airflow_v1.executar_pyspark_pipeline manual__2026-05-20T15:12:11.640565+00:00 [running]> on host codespaces-a467f8
+[2026-05-20T15:13:19.853+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='CrisStudy' AIRFLOW_CTX_DAG_ID='atv_etl_spark_e_airflow_v1' AIRFLOW_CTX_TASK_ID='executar_pyspark_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2026-05-20T15:12:11.640565+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-20T15:12:11.640565+00:00'
+[2026-05-20T15:13:19.853+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-20T15:13:19.876+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-20T15:13:19.876+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /workspaces/meu-primeiro-etl-airflow/processar_com_spark.py']
+[2026-05-20T15:13:19.894+0000] {subprocess.py:86} INFO - Output:
+[2026-05-20T15:13:22.586+0000] {subprocess.py:93} INFO - WARNING: Using incubator modules: jdk.incubator.vector
+[2026-05-20T15:13:22.590+0000] {subprocess.py:93} INFO - WARNING: package sun.security.action not in java.base
+[2026-05-20T15:13:25.396+0000] {subprocess.py:93} INFO - Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[2026-05-20T15:13:25.463+0000] {subprocess.py:93} INFO - 26/05/20 15:13:25 WARN Utils: Your hostname, codespaces-a467f8, resolves to a loopback address: 127.0.0.1; using 10.0.3.6 instead (on interface eth0)
+[2026-05-20T15:13:25.480+0000] {subprocess.py:93} INFO - 26/05/20 15:13:25 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2026-05-20T15:13:26.626+0000] {subprocess.py:93} INFO - Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[2026-05-20T15:13:26.627+0000] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2026-05-20T15:13:26.628+0000] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2026-05-20T15:13:27.318+0000] {subprocess.py:93} INFO - 26/05/20 15:13:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-05-20T15:13:29.187+0000] {subprocess.py:93} INFO - WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+[2026-05-20T15:13:29.188+0000] {subprocess.py:93} INFO - WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by org.apache.spark.unsafe.Platform (file:/usr/local/python/3.12.1/lib/python3.12/site-packages/pyspark/jars/spark-unsafe_2.13-4.1.1.jar)
+[2026-05-20T15:13:29.189+0000] {subprocess.py:93} INFO - WARNING: Please consider reporting this to the maintainers of class org.apache.spark.unsafe.Platform
+[2026-05-20T15:13:29.190+0000] {subprocess.py:93} INFO - WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+[2026-05-20T15:13:34.456+0000] {subprocess.py:93} INFO - 26/05/20 15:13:34 WARN FileSystem: Cannot load filesystem
+[2026-05-20T15:13:34.457+0000] {subprocess.py:93} INFO - java.util.ServiceConfigurationError: org.apache.hadoop.fs.FileSystem: Provider org.apache.hadoop.fs.viewfs.ViewFileSystem could not be instantiated
+[2026-05-20T15:13:34.457+0000] {subprocess.py:93} INFO - 	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:552)
+[2026-05-20T15:13:34.457+0000] {subprocess.py:93} INFO - 	at java.base/java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:712)
+[2026-05-20T15:13:34.458+0000] {subprocess.py:93} INFO - 	at java.base/java.util.ServiceLoader$ProviderImpl.get(ServiceLoader.java:672)
+[2026-05-20T15:13:34.458+0000] {subprocess.py:93} INFO - 	at java.base/java.util.ServiceLoader$2.next(ServiceLoader.java:1256)
+[2026-05-20T15:13:34.458+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:3525)
+[2026-05-20T15:13:34.458+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3562)
+[2026-05-20T15:13:34.459+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FsUrlStreamHandlerFactory.<init>(FsUrlStreamHandlerFactory.java:77)
+[2026-05-20T15:13:34.459+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.internal.SharedState$.liftedTree2$1(SharedState.scala:209)
+[2026-05-20T15:13:34.459+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.internal.SharedState$.org$apache$spark$sql$internal$SharedState$$setFsUrlStreamHandlerFactory(SharedState.scala:208)
+[2026-05-20T15:13:34.460+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.internal.SharedState.<init>(SharedState.scala:56)
+[2026-05-20T15:13:34.460+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.$anonfun$sharedState$1(SparkSession.scala:176)
+[2026-05-20T15:13:34.460+0000] {subprocess.py:93} INFO - 	at scala.Option.getOrElse(Option.scala:201)
+[2026-05-20T15:13:34.460+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sharedState$lzycompute(SparkSession.scala:176)
+[2026-05-20T15:13:34.461+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sharedState(SparkSession.scala:175)
+[2026-05-20T15:13:34.461+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.$anonfun$sessionState$2(SparkSession.scala:187)
+[2026-05-20T15:13:34.461+0000] {subprocess.py:93} INFO - 	at scala.Option.getOrElse(Option.scala:201)
+[2026-05-20T15:13:34.461+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sessionState$lzycompute(SparkSession.scala:185)
+[2026-05-20T15:13:34.461+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sessionState(SparkSession.scala:182)
+[2026-05-20T15:13:34.462+0000] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[2026-05-20T15:13:34.462+0000] {subprocess.py:93} INFO - 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[2026-05-20T15:13:34.462+0000] {subprocess.py:93} INFO - 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2026-05-20T15:13:34.462+0000] {subprocess.py:93} INFO - 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+[2026-05-20T15:13:34.462+0000] {subprocess.py:93} INFO - 	at py4j.Gateway.invoke(Gateway.java:282)
+[2026-05-20T15:13:34.462+0000] {subprocess.py:93} INFO - 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2026-05-20T15:13:34.463+0000] {subprocess.py:93} INFO - 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2026-05-20T15:13:34.463+0000] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+[2026-05-20T15:13:34.463+0000] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+[2026-05-20T15:13:34.463+0000] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[2026-05-20T15:13:34.464+0000] {subprocess.py:93} INFO - Caused by: java.lang.UnsupportedOperationException: getSubject is not supported
+[2026-05-20T15:13:34.464+0000] {subprocess.py:93} INFO - 	at java.base/javax.security.auth.Subject.getSubject(Subject.java:277)
+[2026-05-20T15:13:34.464+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:588)
+[2026-05-20T15:13:34.465+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.viewfs.ViewFileSystem.<init>(ViewFileSystem.java:281)
+[2026-05-20T15:13:34.465+0000] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[2026-05-20T15:13:34.465+0000] {subprocess.py:93} INFO - 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[2026-05-20T15:13:34.465+0000] {subprocess.py:93} INFO - 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+[2026-05-20T15:13:34.465+0000] {subprocess.py:93} INFO - 	at java.base/java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:707)
+[2026-05-20T15:13:34.466+0000] {subprocess.py:93} INFO - 	... 26 more
+[2026-05-20T15:13:34.512+0000] {subprocess.py:93} INFO - 26/05/20 15:13:34 WARN SharedState: Cannot qualify the warehouse path, leaving it unqualified.
+[2026-05-20T15:13:34.512+0000] {subprocess.py:93} INFO - java.lang.UnsupportedOperationException: getSubject is not supported
+[2026-05-20T15:13:34.513+0000] {subprocess.py:93} INFO - 	at java.base/javax.security.auth.Subject.getSubject(Subject.java:277)
+[2026-05-20T15:13:34.513+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:588)
+[2026-05-20T15:13:34.513+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3888)
+[2026-05-20T15:13:34.513+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3878)
+[2026-05-20T15:13:34.513+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3666)
+[2026-05-20T15:13:34.514+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:557)
+[2026-05-20T15:13:34.514+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:289)
+[2026-05-20T15:13:34.514+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:541)
+[2026-05-20T15:13:34.514+0000] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:366)
+[2026-05-20T15:13:34.515+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.internal.SharedState$.qualifyWarehousePath(SharedState.scala:302)
+[2026-05-20T15:13:34.515+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.internal.SharedState.liftedTree1$1(SharedState.scala:82)
+[2026-05-20T15:13:34.515+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.internal.SharedState.<init>(SharedState.scala:81)
+[2026-05-20T15:13:34.515+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.$anonfun$sharedState$1(SparkSession.scala:176)
+[2026-05-20T15:13:34.515+0000] {subprocess.py:93} INFO - 	at scala.Option.getOrElse(Option.scala:201)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sharedState$lzycompute(SparkSession.scala:176)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sharedState(SparkSession.scala:175)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.$anonfun$sessionState$2(SparkSession.scala:187)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at scala.Option.getOrElse(Option.scala:201)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sessionState$lzycompute(SparkSession.scala:185)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at org.apache.spark.sql.classic.SparkSession.sessionState(SparkSession.scala:182)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[2026-05-20T15:13:34.516+0000] {subprocess.py:93} INFO - 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[2026-05-20T15:13:34.517+0000] {subprocess.py:93} INFO - 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2026-05-20T15:13:34.517+0000] {subprocess.py:93} INFO - 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+[2026-05-20T15:13:34.517+0000] {subprocess.py:93} INFO - 	at py4j.Gateway.invoke(Gateway.java:282)
+[2026-05-20T15:13:34.517+0000] {subprocess.py:93} INFO - 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2026-05-20T15:13:34.518+0000] {subprocess.py:93} INFO - 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2026-05-20T15:13:34.518+0000] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+[2026-05-20T15:13:34.518+0000] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+[2026-05-20T15:13:34.519+0000] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[2026-05-20T15:13:56.612+0000] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 2) / 2]                                                                                [Stage 4:>                                                          (0 + 2) / 2][Stage 4:==>  (1 + 1) / 2][Stage 5:>    (0 + 0) / 2][Stage 6:>    (0 + 0) / 2][Stage 5:>    (0 + 0) / 2][Stage 6:>    (0 + 0) / 2][Stage 7:>    (0 + 2) / 2][Stage 5:>                  (0 + 2) / 2][Stage 6:>                  (0 + 0) / 2][Stage 5:=========>         (1 + 1) / 2][Stage 6:>                  (0 + 1) / 2][Stage 6:>                                                          (0 + 2) / 2][Stage 6:=============================>                             (1 + 1) / 2]                                                                                [Stage 16:>   (0 + 0) / 2][Stage 17:>   (0 + 2) / 2][Stage 18:>   (0 + 0) / 2][Stage 16:>                 (0 + 2) / 2][Stage 18:>                 (0 + 0) / 2][Stage 18:>                                                         (0 + 2) / 2]                                                                                [Stage 35:>                 (0 + 2) / 2][Stage 36:>                 (0 + 0) / 2][Stage 36:>                                                         (0 + 2) / 2]
+[2026-05-20T15:13:56.612+0000] {subprocess.py:93} INFO - --- Começando o Processamento com Apache Spark ---
+[2026-05-20T15:13:56.613+0000] {subprocess.py:93} INFO - Extraindo dados do banco e salvando na Camada Bronze...
+[2026-05-20T15:13:56.613+0000] {subprocess.py:93} INFO - -> Camada Bronze concluída!
+[2026-05-20T15:13:56.613+0000] {subprocess.py:93} INFO - Cruzando os dados (Joins) e gerando a Camada Silver...
+[2026-05-20T15:13:56.613+0000] {subprocess.py:93} INFO - -> Camada Silver concluída!
+[2026-05-20T15:13:56.613+0000] {subprocess.py:93} INFO - Gerando agregados de negócio para a Camada Gold...
+[2026-05-20T15:13:56.613+0000] {subprocess.py:93} INFO - -> Camada Gold concluída!
+[2026-05-20T15:13:56.614+0000] {subprocess.py:93} INFO - 
+[2026-05-20T15:13:56.614+0000] {subprocess.py:93} INFO - --- Processamento do Spark Concluído com Sucesso! ---
+[2026-05-20T15:13:57.445+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-20T15:13:57.462+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-20T15:13:57.462+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=atv_etl_spark_e_airflow_v1, task_id=executar_pyspark_pipeline, run_id=manual__2026-05-20T15:12:11.640565+00:00, execution_date=20260520T151211, start_date=20260520T151319, end_date=20260520T151357
+[2026-05-20T15:13:57.493+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-20T15:13:57.504+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-20T15:13:57.508+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,22 @@
+[2026-05-20T15:36:45.974+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-20T15:36:45.983+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atv_etl_spark_e_airflow_v1.enviar_relatorio_gold manual__2026-05-20T15:28:34.516098+00:00 [queued]>
+[2026-05-20T15:36:45.988+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atv_etl_spark_e_airflow_v1.enviar_relatorio_gold manual__2026-05-20T15:28:34.516098+00:00 [queued]>
+[2026-05-20T15:36:45.988+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2026-05-20T15:36:46.002+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): enviar_relatorio_gold> on 2026-05-20 15:28:34.516098+00:00
+[2026-05-20T15:36:46.005+0000] {standard_task_runner.py:72} INFO - Started process 82527 to run task
+[2026-05-20T15:36:46.008+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'atv_etl_spark_e_airflow_v1', 'enviar_relatorio_gold', 'manual__2026-05-20T15:28:34.516098+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_spark_vendas.py', '--cfg-path', '/tmp/tmput__vmt3']
+[2026-05-20T15:36:46.010+0000] {standard_task_runner.py:105} INFO - Job 21: Subtask enviar_relatorio_gold
+[2026-05-20T15:36:46.048+0000] {task_command.py:467} INFO - Running <TaskInstance: atv_etl_spark_e_airflow_v1.enviar_relatorio_gold manual__2026-05-20T15:28:34.516098+00:00 [running]> on host codespaces-a467f8
+[2026-05-20T15:36:46.132+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='CrisStudy' AIRFLOW_CTX_DAG_ID='atv_etl_spark_e_airflow_v1' AIRFLOW_CTX_TASK_ID='enviar_relatorio_gold' AIRFLOW_CTX_EXECUTION_DATE='2026-05-20T15:28:34.516098+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-20T15:28:34.516098+00:00'
+[2026-05-20T15:36:46.133+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-20T15:36:46.150+0000] {logging_mixin.py:190} INFO - --- SIMULAÇÃO DE DISPARO DE E-MAIL ---
+[2026-05-20T15:36:46.150+0000] {logging_mixin.py:190} INFO - Destinatário: cristinafigueiredosaraiva@gmail.com
+[2026-05-20T15:36:46.150+0000] {logging_mixin.py:190} INFO - Assunto: Relatório Final de Vendas - Camada Gold (Airflow + Spark)
+[2026-05-20T15:36:46.150+0000] {logging_mixin.py:190} INFO - Status: Relatório enviado com sucesso via simulação local!
+[2026-05-20T15:36:46.150+0000] {logging_mixin.py:190} INFO - --------------------------------------
+[2026-05-20T15:36:46.151+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-20T15:36:46.155+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-20T15:36:46.155+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=atv_etl_spark_e_airflow_v1, task_id=enviar_relatorio_gold, run_id=manual__2026-05-20T15:28:34.516098+00:00, execution_date=20260520T152834, start_date=20260520T153645, end_date=20260520T153646
+[2026-05-20T15:36:46.185+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-20T15:36:46.197+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-20T15:36:46.198+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

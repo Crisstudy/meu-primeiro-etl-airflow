@@ -1,0 +1,4 @@
+customer_id,order_id,product_id,order_item_id,quantity,subtotal,product_name,price,stock,order_date,status,customer_name,city
+1,1001,101,1,1,3500.0,Notebook,3500.0,2,2026-05-19,COMPLETED,Cris Figueiredo,Anapolis
+1,1001,102,2,2,300.0,Mouse Wireless,150.0,25,2026-05-19,COMPLETED,Cris Figueiredo,Anapolis
+2,1002,103,3,1,300.0,Teclado Mecanico,300.0,4,2026-05-20,COMPLETED,Maria Silva,Goiania

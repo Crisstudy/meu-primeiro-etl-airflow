@@ -1,0 +1,4 @@
+order_item_id,order_id,product_id,quantity,subtotal
+1,1001,101,1,3500.0
+2,1001,102,2,300.0
+3,1002,103,1,300.0
