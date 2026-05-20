@@ -1321,3 +1321,220 @@ NameError: name 'load' is not defined
 [2026-05-02T18:37:01.734+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:37:01.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-02T18:37:01.761+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:37:01.761+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
 [2026-05-02T18:37:01.789+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.094 seconds
+[2026-05-02T18:37:54.619+0000] {processor.py:186} INFO - Started process (PID=112546) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:37:54.619+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:37:54.621+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:37:54.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:37:54.633+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:37:54.647+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:37:54.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:37:54.669+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:37:54.669+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:37:54.685+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.073 seconds
+[2026-05-02T18:38:25.731+0000] {processor.py:186} INFO - Started process (PID=112979) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:38:25.732+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:38:25.733+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:38:25.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:38:25.742+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:38:25.758+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:38:25.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:38:25.777+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:38:25.776+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:38:25.793+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.067 seconds
+[2026-05-02T18:39:20.464+0000] {processor.py:186} INFO - Started process (PID=113454) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:39:20.465+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:39:20.467+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:39:20.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:39:20.477+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:39:20.492+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:39:20.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:39:20.509+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:39:20.509+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:39:20.526+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.067 seconds
+[2026-05-02T18:40:10.167+0000] {processor.py:186} INFO - Started process (PID=113895) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:40:10.168+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:40:10.169+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:40:10.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:40:10.178+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:40:10.190+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:40:10.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:40:10.208+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:40:10.208+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:40:10.225+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.062 seconds
+[2026-05-02T18:41:00.465+0000] {processor.py:186} INFO - Started process (PID=114344) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:41:00.466+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:41:00.467+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:41:00.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:41:00.475+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:41:00.487+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:41:00.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:41:00.504+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:41:00.504+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:41:00.521+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.060 seconds
+[2026-05-02T18:41:54.208+0000] {processor.py:186} INFO - Started process (PID=114817) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:41:54.208+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:41:54.209+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:41:54.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:41:54.217+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:41:54.230+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:41:54.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:41:54.258+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:41:54.258+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:41:54.279+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.076 seconds
+[2026-05-02T18:42:44.666+0000] {processor.py:186} INFO - Started process (PID=115327) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:42:44.667+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:42:44.668+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:42:44.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:42:44.676+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:42:44.689+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:42:44.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:42:44.709+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:42:44.709+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:42:44.726+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.064 seconds
+[2026-05-02T18:43:33.193+0000] {processor.py:186} INFO - Started process (PID=115765) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:43:33.194+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:43:33.195+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:43:33.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:43:33.204+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:43:33.217+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:43:33.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:43:33.236+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:43:33.236+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:43:33.256+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.068 seconds
+[2026-05-02T18:44:27.692+0000] {processor.py:186} INFO - Started process (PID=116179) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:44:27.693+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:44:27.694+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:44:27.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:44:27.709+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:44:27.727+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:44:27.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:44:27.767+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:44:27.767+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:44:27.799+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.116 seconds
+[2026-05-02T18:45:20.006+0000] {processor.py:186} INFO - Started process (PID=116649) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:45:20.006+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:45:20.007+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:45:20.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:45:20.015+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:45:20.027+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:45:20.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:45:20.046+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:45:20.046+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:45:20.065+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.064 seconds
+[2026-05-02T18:46:16.057+0000] {processor.py:186} INFO - Started process (PID=117129) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:46:16.059+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:46:16.060+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:46:16.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:46:16.072+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:46:16.092+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:46:16.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:46:16.109+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:46:16.109+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:46:16.127+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.076 seconds
+[2026-05-02T18:47:07.411+0000] {processor.py:186} INFO - Started process (PID=117585) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:47:07.412+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:47:07.412+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:47:07.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:47:07.420+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:47:07.433+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:47:07.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:47:07.454+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:47:07.454+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:47:07.473+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.066 seconds
+[2026-05-02T18:47:55.724+0000] {processor.py:186} INFO - Started process (PID=118079) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:47:55.725+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:47:55.726+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:47:55.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:47:55.734+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:47:55.748+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:47:55.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:47:55.773+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:47:55.772+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:47:55.790+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.070 seconds
+[2026-05-02T18:48:47.870+0000] {processor.py:186} INFO - Started process (PID=118537) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:48:47.871+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:48:47.872+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:48:47.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:48:47.880+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:48:47.891+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:48:47.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:48:47.908+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:48:47.908+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:48:47.925+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.059 seconds
+[2026-05-02T18:49:39.447+0000] {processor.py:186} INFO - Started process (PID=119000) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:49:39.448+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:49:39.450+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:49:39.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:49:39.460+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:49:39.473+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:49:39.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:49:39.491+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:49:39.491+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:49:39.507+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.066 seconds
+[2026-05-02T18:50:28.338+0000] {processor.py:186} INFO - Started process (PID=119381) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:50:28.338+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:50:28.339+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:50:28.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:50:28.350+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:50:28.366+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:50:28.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:50:28.385+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:50:28.384+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:50:28.418+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.084 seconds
+[2026-05-02T18:51:21.936+0000] {processor.py:186} INFO - Started process (PID=119840) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:51:21.937+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:51:21.938+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:51:21.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:51:21.948+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:51:21.963+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:51:21.963+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:51:21.980+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:51:21.980+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:51:21.997+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.066 seconds
+[2026-05-02T18:52:11.985+0000] {processor.py:186} INFO - Started process (PID=120288) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:52:11.986+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:52:11.987+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:52:11.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:52:11.996+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:52:12.008+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:52:12.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:52:12.025+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:52:12.025+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:52:12.041+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.061 seconds
+[2026-05-02T18:53:02.627+0000] {processor.py:186} INFO - Started process (PID=120808) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:53:02.627+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:53:02.628+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:53:02.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:53:02.636+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:53:02.651+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:53:02.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:53:02.671+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:53:02.671+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:53:02.687+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.065 seconds
+[2026-05-02T18:53:52.989+0000] {processor.py:186} INFO - Started process (PID=121255) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:53:52.990+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:53:52.991+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:53:52.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:53:53.001+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:53:53.013+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:53:53.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:53:53.033+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:53:53.033+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:53:53.049+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.065 seconds
+[2026-05-02T18:54:44.259+0000] {processor.py:186} INFO - Started process (PID=121707) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:54:44.260+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:54:44.261+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:54:44.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:54:44.269+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:54:44.281+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:54:44.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:54:44.298+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:54:44.298+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:54:44.315+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.061 seconds
+[2026-05-02T18:55:35.984+0000] {processor.py:186} INFO - Started process (PID=122171) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:55:35.985+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:55:35.986+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:55:35.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:55:35.995+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:55:36.010+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:55:36.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:55:36.028+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:55:36.027+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:55:36.045+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.065 seconds
+[2026-05-02T18:56:25.880+0000] {processor.py:186} INFO - Started process (PID=122559) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:56:25.881+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:56:25.882+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:56:25.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:56:25.891+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:56:25.903+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:56:25.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:56:25.920+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:56:25.920+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:56:25.938+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.062 seconds
+[2026-05-02T18:57:18.309+0000] {processor.py:186} INFO - Started process (PID=123017) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:57:18.310+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:57:18.312+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:57:18.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:57:18.325+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:57:18.341+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:57:18.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:57:18.378+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:57:18.377+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:57:18.397+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.101 seconds
+[2026-05-02T18:58:10.219+0000] {processor.py:186} INFO - Started process (PID=123537) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:58:10.219+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:58:10.220+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:58:10.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:58:10.229+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:58:10.241+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:58:10.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:58:10.266+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:58:10.265+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:58:10.283+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.068 seconds
+[2026-05-02T18:59:00.788+0000] {processor.py:186} INFO - Started process (PID=123988) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:59:00.789+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:59:00.790+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:59:00.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:59:00.802+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:59:00.820+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:59:00.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:59:00.846+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:59:00.846+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:59:00.870+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.089 seconds
+[2026-05-02T18:59:50.269+0000] {processor.py:186} INFO - Started process (PID=124434) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:59:50.269+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T18:59:50.270+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:59:50.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:59:50.278+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T18:59:50.290+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:59:50.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T18:59:50.311+0000] {logging_mixin.py:190} INFO - [2026-05-02T18:59:50.311+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T18:59:50.328+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.064 seconds
+[2026-05-02T19:00:43.999+0000] {processor.py:186} INFO - Started process (PID=124898) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:00:44.000+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T19:00:44.001+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:00:44.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:00:44.009+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:00:44.021+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:00:44.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T19:00:44.041+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:00:44.041+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T19:00:44.061+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.066 seconds
+[2026-05-02T19:01:38.294+0000] {processor.py:186} INFO - Started process (PID=125392) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:01:38.295+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T19:01:38.296+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:01:38.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:01:38.304+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:01:38.316+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:01:38.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T19:01:38.337+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:01:38.337+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T19:01:38.358+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.068 seconds
+[2026-05-02T19:02:26.570+0000] {processor.py:186} INFO - Started process (PID=125757) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:02:26.571+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T19:02:26.572+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:02:26.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:02:26.580+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:02:26.592+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:02:26.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T19:02:26.609+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:02:26.608+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T19:02:26.625+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.059 seconds
+[2026-05-02T19:03:17.293+0000] {processor.py:186} INFO - Started process (PID=126279) to work on /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:03:17.294+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py for tasks to queue
+[2026-05-02T19:03:17.294+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:03:17.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:03:17.303+0000] {processor.py:925} INFO - DAG(s) 'pipeline_etl_pratica' retrieved from /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py
+[2026-05-02T19:03:17.314+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:03:17.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T19:03:17.331+0000] {logging_mixin.py:190} INFO - [2026-05-02T19:03:17.331+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_etl_pratica to 2026-05-02 00:00:00+00:00, run_after=2026-05-03 00:00:00+00:00
+[2026-05-02T19:03:17.349+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/pipeline_etl_pratica.py took 0.061 seconds

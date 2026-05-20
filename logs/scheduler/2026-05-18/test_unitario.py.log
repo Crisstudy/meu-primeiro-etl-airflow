@@ -1,0 +1,140 @@
+[2026-05-18T15:12:17.026+0000] {processor.py:186} INFO - Started process (PID=55146) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:12:17.027+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:12:17.029+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:12:17.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:12:17.035+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:12:17.032+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:12:17.035+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:12:17.051+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.029 seconds
+[2026-05-18T15:12:47.427+0000] {processor.py:186} INFO - Started process (PID=55772) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:12:47.427+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:12:47.429+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:12:47.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:12:47.432+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:12:47.431+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:12:47.432+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:12:47.447+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.024 seconds
+[2026-05-18T15:13:17.645+0000] {processor.py:186} INFO - Started process (PID=56285) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:13:17.646+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:13:17.649+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:13:17.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:13:17.652+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:13:17.651+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:13:17.652+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:13:17.666+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.026 seconds
+[2026-05-18T15:13:48.434+0000] {processor.py:186} INFO - Started process (PID=57144) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:13:48.435+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:13:48.437+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:13:48.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:13:48.439+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:13:48.439+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:13:48.440+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:13:48.455+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.026 seconds
+[2026-05-18T15:14:20.494+0000] {processor.py:186} INFO - Started process (PID=57569) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:14:20.495+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:14:20.497+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:14:20.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:14:20.500+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:14:20.499+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:14:20.501+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:14:20.516+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.026 seconds
+[2026-05-18T15:14:52.345+0000] {processor.py:186} INFO - Started process (PID=57857) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:14:52.346+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:14:52.348+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:14:52.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:14:52.351+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:14:52.350+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:14:52.351+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:14:52.366+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.025 seconds
+[2026-05-18T15:15:24.396+0000] {processor.py:186} INFO - Started process (PID=58203) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:15:24.401+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:15:24.403+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:15:24.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:15:24.407+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:15:24.406+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:15:24.407+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:15:24.436+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.048 seconds
+[2026-05-18T15:15:55.944+0000] {processor.py:186} INFO - Started process (PID=58488) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:15:55.945+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:15:55.947+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:15:55.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:15:55.949+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:15:55.949+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:15:55.950+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:15:55.970+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.030 seconds
+[2026-05-18T15:16:28.203+0000] {processor.py:186} INFO - Started process (PID=58889) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:16:28.203+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:16:28.205+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:16:28.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:16:28.207+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:16:28.207+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:16:28.208+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:16:28.222+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.024 seconds
+[2026-05-18T15:16:59.959+0000] {processor.py:186} INFO - Started process (PID=59178) to work on /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:16:59.960+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py for tasks to queue
+[2026-05-18T15:16:59.962+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:16:59.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:16:59.965+0000] {logging_mixin.py:190} INFO - [2026-05-18T15:16:59.964+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+[2026-05-18T15:16:59.966+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py
+[2026-05-18T15:16:59.984+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/dags/test_unitario.py took 0.029 seconds
