@@ -1,4 +1,30 @@
+import matplotlib.pyplot as plt
+import pandas as pd
 import os
+
+def gerar_relatorio_com_grafico():
+    # 1. Caminhos dos arquivos na Camada Gold
+    caminho_csv = "/workspaces/meu-primeiro-etl-airflow/datalake/gold/faturamento_diario.csv"
+    caminho_grafico = "/workspaces/meu-primeiro-etl-airflow/datalake/gold/grafico_faturamento.png"
+    caminho_documento = "/workspaces/meu-primeiro-etl-airflow/datalake/gold/relatorio_gerencial.md"
+    
+    # 2. Carrega os dados gerados pelo Spark para criar o gráfico
+    df = pd.read_csv(caminho_csv)
+    
+    # 3. Construção do Gráfico Gerencial via Matplotlib
+    plt.figure(figsize=(8, 4))
+    plt.plot(df['Data'], df['Faturamento_R$'], marker='o', color='#1f77b4', linewidth=2)
+    plt.title('Relatório Gerencial - Faturamento Diário (Camada Gold)', fontsize=12, fontweight='bold', pad=15)
+    plt.xlabel('Data')
+    plt.ylabel('Faturamento (R$)')
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.tight_layout()
+    
+    # Salva o gráfico como imagem física no Data Lake
+    plt.savefig(caminho_grafico, dpi=100)
+    plt.close()
+    
+    print(f"Sucesso: Gráfico gerencial salvo em {caminho_grafico}")
 
 # Força o Airflow a rodar o EmailOperator em modo de teste (ignora o envio real)
 os.environ["AIRFLOW__SMTP__DRY_RUN"] = "True"

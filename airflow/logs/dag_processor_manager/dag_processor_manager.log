@@ -48847,3 +48847,655 @@ File Path                                                                    PID
 /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.10s           2026-05-20T15:44:43                      10
 ================================================================================
 [2026-05-20T15:45:04.258+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-27T14:32:15.000+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-05-27T14:32:15.085+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-05-27T14:32:15.085+0000] {manager.py:485} INFO - Checking for new files in /workspaces/meu-primeiro-etl-airflow/airflow/dags every 300 seconds
+[2026-05-27T14:32:15.086+0000] {manager.py:821} INFO - Searching for files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:32:15.451+0000] {manager.py:824} INFO - There are 6 files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:32:33.203+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  17.68s          2026-05-27T14:32:33                       3
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           0                                                            0
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               0           0                                                            0
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              0           0                                                            0
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             0           0                                                            0
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           0           0                                                            0
+================================================================================
+[2026-05-27T14:33:05.145+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.42s           2026-05-27T14:32:39                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.71s           2026-05-27T14:33:05                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:32:41                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.71s           2026-05-27T14:32:43                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.20s           2026-05-27T14:32:35                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:32:34                       3
+================================================================================
+[2026-05-27T14:33:36.608+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.51s           2026-05-27T14:33:10                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.41s           2026-05-27T14:33:36                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.31s           2026-05-27T14:33:13                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.50s           2026-05-27T14:33:14                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:33:06                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:33:07                      10
+================================================================================
+[2026-05-27T14:34:08.084+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.81s           2026-05-27T14:33:46                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:33:43                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.41s           2026-05-27T14:34:08                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:33:47                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:33:37                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:33:38                      10
+================================================================================
+[2026-05-27T14:34:39.764+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.62s           2026-05-27T14:34:39                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.62s           2026-05-27T14:34:18                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.41s           2026-05-27T14:34:14                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:34:20                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:34:09                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:34:08                       5
+================================================================================
+[2026-05-27T14:35:12.052+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  2.22s           2026-05-27T14:35:12                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.02s           2026-05-27T14:34:47                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.52s           2026-05-27T14:34:50                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:34:52                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.12s           2026-05-27T14:34:40                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:34:41                      10
+================================================================================
+[2026-05-27T14:35:43.952+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.32s           2026-05-27T14:35:19                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.82s           2026-05-27T14:35:23                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.72s           2026-05-27T14:35:43                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:35:24                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.11s           2026-05-27T14:35:12                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:35:13                      10
+================================================================================
+[2026-05-27T14:36:15.647+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:35:51                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.61s           2026-05-27T14:35:55                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.61s           2026-05-27T14:36:15                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:35:56                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:35:45                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:35:45                      10
+================================================================================
+[2026-05-27T14:36:47.339+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.62s           2026-05-27T14:36:47                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.53s           2026-05-27T14:36:22                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:36:27                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:36:28                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.20s           2026-05-27T14:36:17                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:36:16                       5
+================================================================================
+[2026-05-27T14:37:15.643+0000] {manager.py:821} INFO - Searching for files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:37:15.648+0000] {manager.py:824} INFO - There are 6 files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:37:18.923+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.71s           2026-05-27T14:36:54                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.52s           2026-05-27T14:37:18                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:36:58                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:37:00                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:36:49                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:36:48                       5
+================================================================================
+[2026-05-27T14:37:50.490+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.91s           2026-05-27T14:37:27                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.71s           2026-05-27T14:37:30                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  1.51s           2026-05-27T14:37:50                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:37:32                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:37:20                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:37:19                       5
+================================================================================
+[2026-05-27T14:38:23.474+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  0           1  2.86s           2026-05-27T14:38:23                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.63s           2026-05-27T14:37:59                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.43s           2026-05-27T14:38:02                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:38:03                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:37:50                       5
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:37:52                      10
+================================================================================
+[2026-05-27T14:38:55.457+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.92s           2026-05-27T14:38:55                      43
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.72s           2026-05-27T14:38:31                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.52s           2026-05-27T14:38:34                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:38:36                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:38:25                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.11s           2026-05-27T14:38:24                       5
+================================================================================
+[2026-05-27T14:39:27.232+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.71s           2026-05-27T14:39:27                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.54s           2026-05-27T14:39:03                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:39:06                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:39:07                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:38:57                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.10s           2026-05-27T14:38:56                       5
+================================================================================
+[2026-05-27T14:40:06.184+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  7.47s           2026-05-27T14:40:06                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  2.95s           2026-05-27T14:39:40                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.62s           2026-05-27T14:39:36                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.60s           2026-05-27T14:39:41                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:39:29                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             0           1  0.11s           2026-05-27T14:39:28                       5
+================================================================================
+[2026-05-27T14:40:38.363+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  7.01s           2026-05-27T14:40:14                      32
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.12s           2026-05-27T14:40:17                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.73s           2026-05-27T14:40:38                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.61s           2026-05-27T14:40:20                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:40:22                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:40:15                      10
+================================================================================
+[2026-05-27T14:41:10.200+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.33s           2026-05-27T14:40:50                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.62s           2026-05-27T14:40:52                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.51s           2026-05-27T14:41:10                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.41s           2026-05-27T14:40:45                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:40:54                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:40:47                      10
+================================================================================
+[2026-05-27T14:41:42.443+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.73s           2026-05-27T14:41:22                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.72s           2026-05-27T14:41:42                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.71s           2026-05-27T14:41:24                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.22s           2026-05-27T14:41:17                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.81s           2026-05-27T14:41:26                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:41:17                      10
+================================================================================
+[2026-05-27T14:42:14.434+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  3.47s           2026-05-27T14:41:58                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.92s           2026-05-27T14:42:14                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.83s           2026-05-27T14:41:54                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:41:48                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:41:59                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:41:49                      10
+================================================================================
+[2026-05-27T14:42:16.052+0000] {manager.py:821} INFO - Searching for files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:42:16.058+0000] {manager.py:824} INFO - There are 6 files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:42:46.418+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.63s           2026-05-27T14:42:30                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:42:26                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.52s           2026-05-27T14:42:46                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.02s           2026-05-27T14:42:19                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:42:31                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:42:19                      10
+================================================================================
+[2026-05-27T14:43:18.979+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.95s           2026-05-27T14:43:18                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.63s           2026-05-27T14:42:58                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:43:02                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.91s           2026-05-27T14:42:50                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.71s           2026-05-27T14:43:03                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:42:51                      10
+================================================================================
+[2026-05-27T14:43:52.583+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  2.75s           2026-05-27T14:43:52                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.82s           2026-05-27T14:43:34                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.71s           2026-05-27T14:43:29                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:43:21                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:43:35                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:43:22                      10
+================================================================================
+[2026-05-27T14:44:25.426+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  2.32s           2026-05-27T14:43:55                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.72s           2026-05-27T14:44:01                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.52s           2026-05-27T14:44:25                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:44:06                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.64s           2026-05-27T14:43:57                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:44:07                      12
+================================================================================
+[2026-05-27T14:44:57.464+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.92s           2026-05-27T14:44:38                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.73s           2026-05-27T14:44:34                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.62s           2026-05-27T14:44:57                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.41s           2026-05-27T14:44:27                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:44:39                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:44:29                      10
+================================================================================
+[2026-05-27T14:45:29.638+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.91s           2026-05-27T14:45:06                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.72s           2026-05-27T14:45:00                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.71s           2026-05-27T14:45:29                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:45:09                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.71s           2026-05-27T14:45:11                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.20s           2026-05-27T14:45:01                      10
+================================================================================
+[2026-05-27T14:46:01.762+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.52s           2026-05-27T14:46:01                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:45:41                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.51s           2026-05-27T14:45:37                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.11s           2026-05-27T14:45:31                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:45:43                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:45:32                      10
+================================================================================
+[2026-05-27T14:46:33.907+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  2.13s           2026-05-27T14:46:04                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.83s           2026-05-27T14:46:13                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.71s           2026-05-27T14:46:09                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.62s           2026-05-27T14:46:33                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:46:15                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:46:06                      10
+================================================================================
+[2026-05-27T14:47:05.440+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:46:41                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.61s           2026-05-27T14:46:45                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.53s           2026-05-27T14:47:05                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:46:35                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:46:46                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.20s           2026-05-27T14:46:37                      10
+================================================================================
+[2026-05-27T14:47:17.821+0000] {manager.py:821} INFO - Searching for files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:47:17.828+0000] {manager.py:824} INFO - There are 6 files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:47:37.510+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.73s           2026-05-27T14:47:37                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.61s           2026-05-27T14:47:16                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.51s           2026-05-27T14:47:13                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.91s           2026-05-27T14:47:07                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:47:18                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.20s           2026-05-27T14:47:08                      10
+================================================================================
+[2026-05-27T14:48:10.100+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.82s           2026-05-27T14:47:45                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.51s           2026-05-27T14:48:10                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:47:48                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:47:39                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:47:49                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:47:40                      10
+================================================================================
+[2026-05-27T14:48:41.752+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.72s           2026-05-27T14:48:22                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.62s           2026-05-27T14:48:21                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.52s           2026-05-27T14:48:41                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.36s           2026-05-27T14:48:17                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:48:24                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:48:18                      10
+================================================================================
+[2026-05-27T14:49:14.299+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.72s           2026-05-27T14:49:14                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:48:52                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:48:55                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.81s           2026-05-27T14:48:49                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:48:56                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:48:50                      10
+================================================================================
+[2026-05-27T14:49:44.707+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  2.55s           2026-05-27T14:49:28                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.31s           2026-05-27T14:49:25                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.72s           2026-05-27T14:49:31                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:49:20                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.40s           2026-05-27T14:49:32                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:49:20                      10
+================================================================================
+[2026-05-27T14:50:15.364+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.73s           2026-05-27T14:50:07                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.71s           2026-05-27T14:50:04                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.53s           2026-05-27T14:50:09                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.13s           2026-05-27T14:49:56                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:50:10                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:50:01                      10
+================================================================================
+[2026-05-27T14:50:45.762+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.81s           2026-05-27T14:50:37                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:50:42                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.41s           2026-05-27T14:50:39                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.41s           2026-05-27T14:50:28                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:50:43                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:50:32                      10
+================================================================================
+[2026-05-27T14:51:16.786+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  3.06s           2026-05-27T14:51:12                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.92s           2026-05-27T14:51:14                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.52s           2026-05-27T14:51:16                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:50:59                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:50:43                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.21s           2026-05-27T14:51:04                      10
+================================================================================
+[2026-05-27T14:51:52.164+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.82s           2026-05-27T14:51:46                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.63s           2026-05-27T14:51:52                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.52s           2026-05-27T14:51:16                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.23s           2026-05-27T14:51:31                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.61s           2026-05-27T14:51:17                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:51:34                      10
+================================================================================
+[2026-05-27T14:52:19.783+0000] {manager.py:821} INFO - Searching for files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:52:19.790+0000] {manager.py:824} INFO - There are 6 files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:52:24.672+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.71s           2026-05-27T14:52:24                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.51s           2026-05-27T14:52:18                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:51:58                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.11s           2026-05-27T14:52:06                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:52:04                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:52:07                      10
+================================================================================
+[2026-05-27T14:52:56.461+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.61s           2026-05-27T14:52:30                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.53s           2026-05-27T14:52:56                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.53s           2026-05-27T14:52:50                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.03s           2026-05-27T14:52:37                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:52:35                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:52:38                      10
+================================================================================
+[2026-05-27T14:53:31.641+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.62s           2026-05-27T14:53:31                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.61s           2026-05-27T14:53:25                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:53:02                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.91s           2026-05-27T14:53:11                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:53:06                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:53:16                      10
+================================================================================
+[2026-05-27T14:54:03.963+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.52s           2026-05-27T14:54:03                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.42s           2026-05-27T14:53:57                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:53:37                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.11s           2026-05-27T14:53:44                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:53:41                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:53:46                      10
+================================================================================
+[2026-05-27T14:54:35.797+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:54:35                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:54:08                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.31s           2026-05-27T14:54:28                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.91s           2026-05-27T14:54:16                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:54:12                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:54:17                      10
+================================================================================
+[2026-05-27T14:55:10.963+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  2.35s           2026-05-27T14:55:10                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.51s           2026-05-27T14:55:00                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.44s           2026-05-27T14:54:40                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.91s           2026-05-27T14:54:47                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:54:43                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:54:49                      10
+================================================================================
+[2026-05-27T14:55:43.071+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.43s           2026-05-27T14:55:17                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.42s           2026-05-27T14:55:43                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.41s           2026-05-27T14:55:32                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:55:21                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.40s           2026-05-27T14:55:19                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:55:21                      10
+================================================================================
+[2026-05-27T14:56:15.439+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:56:15                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:55:49                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.31s           2026-05-27T14:56:03                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.91s           2026-05-27T14:55:52                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:55:50                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:55:54                      10
+================================================================================
+[2026-05-27T14:56:47.140+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.61s           2026-05-27T14:56:47                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.52s           2026-05-27T14:56:35                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.31s           2026-05-27T14:56:21                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.01s           2026-05-27T14:56:24                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.41s           2026-05-27T14:56:22                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:56:25                      10
+================================================================================
+[2026-05-27T14:57:18.901+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.71s           2026-05-27T14:57:18                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.65s           2026-05-27T14:57:07                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.51s           2026-05-27T14:56:53                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  0.91s           2026-05-27T14:56:56                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:56:54                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:56:57                      10
+================================================================================
+[2026-05-27T14:57:19.943+0000] {manager.py:821} INFO - Searching for files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:57:19.947+0000] {manager.py:824} INFO - There are 6 files in /workspaces/meu-primeiro-etl-airflow/airflow/dags
+[2026-05-27T14:57:50.868+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.92s           2026-05-27T14:57:39                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.82s           2026-05-27T14:57:50                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.41s           2026-05-27T14:57:24                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.02s           2026-05-27T14:57:28                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:57:26                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.10s           2026-05-27T14:57:29                      10
+================================================================================
+[2026-05-27T14:58:22.645+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_inferencia_titanic.py                           1           0  1.82s           2026-05-27T14:57:57                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py                                  1           0  1.44s           2026-05-27T14:58:10                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_treino_titanic.py                               1           0  1.41s           2026-05-27T14:58:22                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py                             1           0  1.12s           2026-05-27T14:58:00                      10
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/pipeline_etl_pratica.py                             1           0  0.51s           2026-05-27T14:57:58                      12
+/workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_contagem_linhas.py                              1           0  0.11s           2026-05-27T14:58:01                      10
+================================================================================

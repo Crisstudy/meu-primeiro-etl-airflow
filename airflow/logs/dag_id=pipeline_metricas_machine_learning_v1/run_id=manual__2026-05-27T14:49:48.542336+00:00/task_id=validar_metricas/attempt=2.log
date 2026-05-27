@@ -1,0 +1,22 @@
+[2026-05-27T14:55:04.001+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-27T14:55:04.010+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_metricas_machine_learning_v1.validar_metricas manual__2026-05-27T14:49:48.542336+00:00 [queued]>
+[2026-05-27T14:55:04.019+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_metricas_machine_learning_v1.validar_metricas manual__2026-05-27T14:49:48.542336+00:00 [queued]>
+[2026-05-27T14:55:04.019+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2026-05-27T14:55:04.035+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): validar_metricas> on 2026-05-27 14:49:48.542336+00:00
+[2026-05-27T14:55:04.041+0000] {standard_task_runner.py:72} INFO - Started process 40805 to run task
+[2026-05-27T14:55:04.044+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_metricas_machine_learning_v1', 'validar_metricas', 'manual__2026-05-27T14:49:48.542336+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline_ml.py', '--cfg-path', '/tmp/tmpg7fyzw09']
+[2026-05-27T14:55:04.046+0000] {standard_task_runner.py:105} INFO - Job 41: Subtask validar_metricas
+[2026-05-27T14:55:04.074+0000] {task_command.py:467} INFO - Running <TaskInstance: pipeline_metricas_machine_learning_v1.validar_metricas manual__2026-05-27T14:49:48.542336+00:00 [running]> on host codespaces-a467f8
+[2026-05-27T14:55:04.125+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='CrisStudy' AIRFLOW_CTX_DAG_ID='pipeline_metricas_machine_learning_v1' AIRFLOW_CTX_TASK_ID='validar_metricas' AIRFLOW_CTX_EXECUTION_DATE='2026-05-27T14:49:48.542336+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-27T14:49:48.542336+00:00'
+[2026-05-27T14:55:04.126+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-27T14:55:04.138+0000] {logging_mixin.py:190} INFO - Validando as métricas do modelo...
+[2026-05-27T14:55:04.143+0000] {logging_mixin.py:190} INFO - --- MÉTRICAS AVALIADAS ---
+[2026-05-27T14:55:04.143+0000] {logging_mixin.py:190} INFO - Acurácia do Modelo: 100.0%
+[2026-05-27T14:55:04.144+0000] {logging_mixin.py:190} INFO - Área sob a Curva ROC (AUC-ROC): 1.0
+[2026-05-27T14:55:04.144+0000] {logging_mixin.py:190} INFO - --------------------------
+[2026-05-27T14:55:04.144+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-27T14:55:04.147+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-27T14:55:04.147+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=pipeline_metricas_machine_learning_v1, task_id=validar_metricas, run_id=manual__2026-05-27T14:49:48.542336+00:00, execution_date=20260527T144948, start_date=20260527T145504, end_date=20260527T145504
+[2026-05-27T14:55:04.177+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-27T14:55:04.193+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-27T14:55:04.197+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
