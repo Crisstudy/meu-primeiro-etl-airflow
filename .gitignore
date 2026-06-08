@@ -1,0 +1,4 @@
+
+.venv/
+airflow/airflow.db
+airflow/logs/

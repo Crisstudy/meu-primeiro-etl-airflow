@@ -452,3 +452,31 @@ TypeError: DAG.__init__() got an unexpected keyword argument 'schudele_interval'
 [2026-05-27T14:58:10.521+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:10.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-27T14:58:10.538+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:10.538+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_metricas_machine_learning_v1 to None, run_after=None
 [2026-05-27T14:58:10.571+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py took 1.377 seconds
+[2026-05-27T14:58:40.706+0000] {processor.py:186} INFO - Started process (PID=43046) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:58:40.707+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py for tasks to queue
+[2026-05-27T14:58:40.709+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:40.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:58:42.073+0000] {processor.py:925} INFO - DAG(s) 'pipeline_metricas_machine_learning_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:58:42.087+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:42.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T14:58:42.095+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:42.095+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_metricas_machine_learning_v1 to None, run_after=None
+[2026-05-27T14:58:42.112+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py took 1.414 seconds
+[2026-05-27T14:59:12.319+0000] {processor.py:186} INFO - Started process (PID=43345) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:59:12.324+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py for tasks to queue
+[2026-05-27T14:59:12.326+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:12.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:59:14.154+0000] {processor.py:925} INFO - DAG(s) 'pipeline_metricas_machine_learning_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:59:14.168+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:14.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T14:59:14.176+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:14.176+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_metricas_machine_learning_v1 to None, run_after=None
+[2026-05-27T14:59:14.191+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py took 1.880 seconds
+[2026-05-27T14:59:44.296+0000] {processor.py:186} INFO - Started process (PID=43759) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:59:44.297+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py for tasks to queue
+[2026-05-27T14:59:44.298+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:44.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:59:45.675+0000] {processor.py:925} INFO - DAG(s) 'pipeline_metricas_machine_learning_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T14:59:45.691+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:45.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T14:59:45.703+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:45.703+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_metricas_machine_learning_v1 to None, run_after=None
+[2026-05-27T14:59:45.727+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py took 1.437 seconds
+[2026-05-27T15:00:15.897+0000] {processor.py:186} INFO - Started process (PID=44177) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T15:00:15.898+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py for tasks to queue
+[2026-05-27T15:00:15.900+0000] {logging_mixin.py:190} INFO - [2026-05-27T15:00:15.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T15:00:17.278+0000] {processor.py:925} INFO - DAG(s) 'pipeline_metricas_machine_learning_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py
+[2026-05-27T15:00:17.292+0000] {logging_mixin.py:190} INFO - [2026-05-27T15:00:17.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T15:00:17.300+0000] {logging_mixin.py:190} INFO - [2026-05-27T15:00:17.300+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_metricas_machine_learning_v1 to None, run_after=None
+[2026-05-27T15:00:17.317+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_pipeline_ml.py took 1.430 seconds

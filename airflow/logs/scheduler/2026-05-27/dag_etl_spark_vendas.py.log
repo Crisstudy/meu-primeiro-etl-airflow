@@ -433,3 +433,31 @@ ModuleNotFoundError: No module named 'matplotlib'
 [2026-05-27T14:58:00.722+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:00.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-27T14:58:00.733+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:00.733+0000] {dag.py:4180} INFO - Setting next_dagrun for atv_etl_spark_e_airflow_v1 to None, run_after=None
 [2026-05-27T14:58:00.751+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py took 1.101 seconds
+[2026-05-27T14:58:31.964+0000] {processor.py:186} INFO - Started process (PID=42955) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:58:31.965+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py for tasks to queue
+[2026-05-27T14:58:31.966+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:31.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:58:33.314+0000] {processor.py:925} INFO - DAG(s) 'atv_etl_spark_e_airflow_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:58:33.331+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:33.331+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T14:58:33.339+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:58:33.339+0000] {dag.py:4180} INFO - Setting next_dagrun for atv_etl_spark_e_airflow_v1 to None, run_after=None
+[2026-05-27T14:58:33.363+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py took 1.405 seconds
+[2026-05-27T14:59:03.857+0000] {processor.py:186} INFO - Started process (PID=43275) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:59:03.859+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py for tasks to queue
+[2026-05-27T14:59:03.862+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:03.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:59:04.730+0000] {processor.py:925} INFO - DAG(s) 'atv_etl_spark_e_airflow_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:59:04.742+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:04.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T14:59:04.750+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:04.750+0000] {dag.py:4180} INFO - Setting next_dagrun for atv_etl_spark_e_airflow_v1 to None, run_after=None
+[2026-05-27T14:59:04.766+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py took 0.922 seconds
+[2026-05-27T14:59:35.490+0000] {processor.py:186} INFO - Started process (PID=43676) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:59:35.491+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py for tasks to queue
+[2026-05-27T14:59:35.492+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:35.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:59:36.385+0000] {processor.py:925} INFO - DAG(s) 'atv_etl_spark_e_airflow_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T14:59:36.398+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:36.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T14:59:36.406+0000] {logging_mixin.py:190} INFO - [2026-05-27T14:59:36.406+0000] {dag.py:4180} INFO - Setting next_dagrun for atv_etl_spark_e_airflow_v1 to None, run_after=None
+[2026-05-27T14:59:36.425+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py took 0.943 seconds
+[2026-05-27T15:00:07.163+0000] {processor.py:186} INFO - Started process (PID=43995) to work on /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T15:00:07.164+0000] {processor.py:914} INFO - Processing file /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py for tasks to queue
+[2026-05-27T15:00:07.165+0000] {logging_mixin.py:190} INFO - [2026-05-27T15:00:07.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T15:00:08.081+0000] {processor.py:925} INFO - DAG(s) 'atv_etl_spark_e_airflow_v1' retrieved from /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py
+[2026-05-27T15:00:08.094+0000] {logging_mixin.py:190} INFO - [2026-05-27T15:00:08.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-27T15:00:08.102+0000] {logging_mixin.py:190} INFO - [2026-05-27T15:00:08.102+0000] {dag.py:4180} INFO - Setting next_dagrun for atv_etl_spark_e_airflow_v1 to None, run_after=None
+[2026-05-27T15:00:08.122+0000] {processor.py:208} INFO - Processing /workspaces/meu-primeiro-etl-airflow/airflow/dags/dag_etl_spark_vendas.py took 0.964 seconds
